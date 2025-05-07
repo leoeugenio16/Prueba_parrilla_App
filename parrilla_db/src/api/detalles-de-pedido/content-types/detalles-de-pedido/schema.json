@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detalles_de_pedidos",
+  "info": {
+    "singularName": "detalles-de-pedido",
+    "pluralName": "detalles-de-pedidos",
+    "displayName": "Detalles_de_Pedido",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "id_pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pedido.pedido",
+      "inversedBy": "detalles_de_pedido"
+    },
+    "id_productos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::producto.producto",
+      "mappedBy": "detalles_de_pedidos"
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "subtotal": {
+      "type": "integer"
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "abierto",
+        "en_preparacion",
+        "listo_para_servir",
+        "servido",
+        "pagado",
+        "cerrado"
+      ]
+    },
+    "hora_apertura": {
+      "type": "datetime"
+    },
+    "hora_cierre": {
+      "type": "datetime"
+    },
+    "Detalle_de_pago": {
+      "type": "enumeration",
+      "enum": [
+        "Efectivo",
+        "QR",
+        "Transferencia",
+        "Tarjeta"
+      ]
+    },
+    "mesa": {
+      "type": "integer"
+    },
+    "tiempo": {
+      "type": "integer"
+    },
+    "detalle_productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::detalle-producto.detalle-producto",
+      "mappedBy": "detalles_de_pedido"
+    }
+  }
+}

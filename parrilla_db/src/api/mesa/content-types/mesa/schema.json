@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mesas",
+  "info": {
+    "singularName": "mesa",
+    "pluralName": "mesas",
+    "displayName": "Mesa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "numero_mesa": {
+      "type": "integer"
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "abierto",
+        "en_preparacion",
+        "listo_para_servir",
+        "servido",
+        "pagado",
+        "cerrado"
+      ]
+    },
+    "pedidos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pedido.pedido",
+      "mappedBy": "mesa"
+    }
+  }
+}

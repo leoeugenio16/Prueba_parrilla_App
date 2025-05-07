@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidos",
+  "info": {
+    "singularName": "pedido",
+    "pluralName": "pedidos",
+    "displayName": "Pedido",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fecha": {
+      "type": "datetime"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "abierto",
+        "cerrado"
+      ]
+    },
+    "detalles_de_pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::detalles-de-pedido.detalles-de-pedido",
+      "mappedBy": "id_pedido"
+    },
+    "mesa": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::mesa.mesa",
+      "inversedBy": "pedidos"
+    }
+  }
+}

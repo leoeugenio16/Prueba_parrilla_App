@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "singularName": "producto",
+    "pluralName": "productos",
+    "displayName": "Producto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "precio": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "COMIDAS",
+        "AGUAS Y GASEOSAS",
+        "ESPIRITUOSAS Y APERITIVOS",
+        "VINOTECA CLASICA",
+        "BODEGA CONO SUR",
+        "BODEGA TRIVENTO",
+        "BODEGA NORTON",
+        "BODEGA EL ESTECO",
+        "BODEGA MOSQUITA MUERTA",
+        "BODEGA FINCA LAS MORAS",
+        "BODEGA LA CELIA",
+        "CERVEZAS",
+        "VINOS ESPUMANTES",
+        "SIDRAS",
+        "CAFETERÍA"
+      ]
+    },
+    "detalles_de_pedidos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::detalles-de-pedido.detalles-de-pedido",
+      "inversedBy": "id_productos"
+    },
+    "detalle_productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::detalle-producto.detalle-producto",
+      "mappedBy": "producto"
+    }
+  }
+}

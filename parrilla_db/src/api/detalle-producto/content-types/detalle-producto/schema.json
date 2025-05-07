@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detalle_productos",
+  "info": {
+    "singularName": "detalle-producto",
+    "pluralName": "detalle-productos",
+    "displayName": "detalle_producto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "producto": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::producto.producto",
+      "inversedBy": "detalle_productos"
+    },
+    "detalles_de_pedido": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::detalles-de-pedido.detalles-de-pedido",
+      "inversedBy": "detalle_productos"
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "subtotal": {
+      "type": "integer"
+    }
+  }
+}
