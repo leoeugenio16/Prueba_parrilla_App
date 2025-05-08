@@ -77,7 +77,12 @@ npm start
 
 ### Backend (`/parrilla_db/.env`)
 
-Crea un archivo `.env` en la carpeta `parrilla_db` si deseas usar variables personalizadas para el entorno de Strapi.
+Crea un archivo `.env` en la carpeta `backend` con el siguiente contenido:
+
+```env
+DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre_basedatos
+STRAPI_ADMIN_JWT_SECRET=tu_secreto
+```
 
 ### Frontend (`/app-parrilla/.env`)
 
@@ -94,3 +99,6 @@ REACT_APP_API_URL=http://localhost:1337
 - Leo Eugenio – [GitHub](https://github.com/leoeugenio16)
 
 ---
+
+
+## 🎞️ imagenes
