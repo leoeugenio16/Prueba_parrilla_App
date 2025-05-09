@@ -134,8 +134,21 @@ REACT_APP_API_URL=http://localhost:1337
 
 - **ahora si en el navbar vamos a la opcion agregar producto vamos a poder generar un nuevo pordcuto colocando los datos siguientes**
 
-![image](https://github.com/user-attachments/assets/c34afbd4-dc30-4479-a973-50f0e256a703)
 ![image](https://github.com/user-attachments/assets/7d9a00fd-ee2c-4d43-85f1-c9702266f9dd)
+
+- **en la seleccion de editar prodcuto vamsoa  tener algo similar, con la diferencia que vamosa  buscar en el input el pordcuto por nombre y al seleccionarlo vamos a poder editar los datos ya establecidos en la base de datos**
+
+![image](https://github.com/user-attachments/assets/ee85dbb0-6f67-4677-a378-c4e5338a73b5)
+
+![image](https://github.com/user-attachments/assets/98218d66-5b7b-4a57-b3d3-703edb793f98)
+
+![image](https://github.com/user-attachments/assets/1155c03f-8d4f-4a94-ad1e-589e320025ab)
+
+- si queremos borrar un pordcuto nos va a aparecer un alert que genera un numero random y el mismo debe ser ingresado para evitar borrar productos sin intencion
+
+![image](https://github.com/user-attachments/assets/fa869e3b-394b-453e-bce0-7343a20b448f)
+
+
 
 
 
