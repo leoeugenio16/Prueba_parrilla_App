@@ -107,9 +107,29 @@ REACT_APP_API_URL=http://localhost:1337
 
 ![image](https://github.com/user-attachments/assets/0833a938-72e3-4be8-a976-60869362e659)
 
-- **si seleccionamos una mesa, nos va a preguntar si deseamos abrirla entonces en la base de datos se va a setear con el estado de mesa abierta**
+- **si seleccionamos una mesa, nos va a preguntar si deseamos abrirla, entonces en la base de datos se va a setear  el estado de mesa abierta**
 
 ![image](https://github.com/user-attachments/assets/d4e0afc7-de2e-4e12-889e-4da61a1cfa2a)
+
+- **Al abrir la mesa nos va a mostrar una pantalla como la siguiente para poder ir hacienod los pedidos en esa mesa**
+
+![image](https://github.com/user-attachments/assets/dca6fa7d-b996-44b5-9be3-cc5098815c77)
+
+- **en el buscador de producto miesntras vamos escribiendo nos va mostrando un listado con los productos de la base de datos en tiempo real**
+
+![image](https://github.com/user-attachments/assets/e3d83365-08c4-4f6d-ab62-6ffc64400ba7)
+![image](https://github.com/user-attachments/assets/597f6e75-2ba4-4c0f-9ccb-2e34b6985967)
+
+- **los productos se van seleccionando y se van agregando a la lista donde se van a sumar y generar un total**
+
+![image](https://github.com/user-attachments/assets/f8cdf79e-7d5d-429e-b3a0-3012fbde7833)
+
+- **
+
+
+
+
+
 
 
   
