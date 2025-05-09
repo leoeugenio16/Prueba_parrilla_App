@@ -68,7 +68,7 @@ npm run develop
 
 ```bash
 cd ../app-parrilla
-npm start
+npm run dev
 ```
 
 ---
