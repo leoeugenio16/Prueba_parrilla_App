@@ -170,9 +170,16 @@ al presionar en ver productos, se despliega la lista de prodcutos
 
 ![image](https://github.com/user-attachments/assets/a7390174-362b-4a79-8331-dd51b8642403)
 
-- ** a su vez esta pagina cuenta con un menu en el cual pueden acceder todas las personas, es decir los comenzales, y esta vinculado a la base de datos, entonces modificando los precios en directamente en la edicion de prodcutos se actualiza en el menu**
+- **a su vez esta pagina cuenta con un menu en el cual pueden acceder todas las personas, es decir los comenzales, y esta vinculado a la base de datos, entonces modificando los precios en directamente en la edicion de prodcutos se actualiza en el menu**
 
 ![image](https://github.com/user-attachments/assets/e122be62-1497-4e89-a1cf-8e087bbdb59c) ![image](https://github.com/user-attachments/assets/1cf603f6-ca77-4918-8b65-da2eaa4e7c67)
+
+
+- **esta aplicacino web es responsive ya que la gestion de pedidos el mozo la puede hacer en tiempo real mientras esta en la meza de los comensales**
+
+![image](https://github.com/user-attachments/assets/a434433e-879a-4ce1-8d37-4b3a0e0670c2) ![image](https://github.com/user-attachments/assets/dbd75c9c-56b5-4cfa-bc74-a7a04654500f)
+
+
 
 
 
