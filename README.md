@@ -148,6 +148,39 @@ REACT_APP_API_URL=http://localhost:1337
 
 ![image](https://github.com/user-attachments/assets/fa869e3b-394b-453e-bce0-7343a20b448f)
 
+- **en la session de tablero vamos a ver las mesas que estan abiertas en tiempo real y asi poder ver los pedidos, esto lo usa la persona dentro de la cocina para poder seguir los pedidos, los cuales indican la hopra de apertura para saber que pedido debe salir primero**
+
+![image](https://github.com/user-attachments/assets/7a1674fc-b3cc-477d-8ffc-a8f735ff88b1)
+
+al presionar en ver productos, se despliega la lista de prodcutos
+
+![image](https://github.com/user-attachments/assets/955b9136-cb66-443f-b9c6-51d0ac209b77)
+
+- **En el apartado cierre de caja vamos a tener la opcion de indicar un rango de fechas y horas y asi poder ver todos los pedidos que fueron realizados y pagados en ese lapzo y asi poder calcular cuanto dinero ingreso, mostrando un total general y mostrando un total por tipo de pago**
+  
+![image](https://github.com/user-attachments/assets/0affbaa4-2d7e-4d56-9cdb-da3ee7abd041)
+
+- **a su vez podemos obtener los detalles de cada pedido**
+
+![image](https://github.com/user-attachments/assets/0882b942-2798-4765-a2ce-7deef8c82120)
+
+- **esta pagina esta protegida con contraseña, donde los mozos solo pueden abri y cargar mesas, y el usuario general tiene acceso a la modificacion de prodcutos**
+
+![image](https://github.com/user-attachments/assets/b8131fa5-c0d8-4df1-b2e6-db1bbf4f8a35)
+
+![image](https://github.com/user-attachments/assets/a7390174-362b-4a79-8331-dd51b8642403)
+
+- ** a su vez esta pagina cuenta con un menu en el cual pueden acceder todas las personas, es decir los comenzales, y esta vinculado a la base de datos, entonces modificando los precios en directamente en la edicion de prodcutos se actualiza en el menu**
+
+![image](https://github.com/user-attachments/assets/e122be62-1497-4e89-a1cf-8e087bbdb59c) ![image](https://github.com/user-attachments/assets/1cf603f6-ca77-4918-8b65-da2eaa4e7c67)
+
+
+
+
+
+
+
+
 
 
 
