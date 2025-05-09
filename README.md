@@ -102,3 +102,14 @@ REACT_APP_API_URL=http://localhost:1337
 
 
 ## 🎞️ imagenes
+
+- **En esta aplicacion se presenta en la pantalla principal todas las mesas disponibles en la parrilla**
+
+![image](https://github.com/user-attachments/assets/0833a938-72e3-4be8-a976-60869362e659)
+
+- **si seleccionamos una mesa, nos va a preguntar si deseamos abrirla entonces en la base de datos se va a setear con el estado de mesa abierta**
+
+![image](https://github.com/user-attachments/assets/d4e0afc7-de2e-4e12-889e-4da61a1cfa2a)
+
+
+  
