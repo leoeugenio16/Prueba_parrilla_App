@@ -124,7 +124,24 @@ REACT_APP_API_URL=http://localhost:1337
 
 ![image](https://github.com/user-attachments/assets/f8cdf79e-7d5d-429e-b3a0-3012fbde7833)
 
-- **
+- **luego en la seleccion de pago debemos elegir como pago el cliente para poder tener un registro**
+
+![image](https://github.com/user-attachments/assets/fb84a713-3c0b-43ff-834d-9f80d842f26d)
+
+- **si volvemos a la pagina principal sin cerrar la mesa podemos identificar que esa mesa sigue abierta por emdio del color del boton, en este caso la mesa 1**
+
+![image](https://github.com/user-attachments/assets/f5642fb6-f6a5-4c9a-abc6-3234afbe0b4b)
+
+- **ahora si en el navbar vamos a la opcion agregar producto vamos a poder generar un nuevo pordcuto colocando los datos siguientes**
+
+![image](https://github.com/user-attachments/assets/c34afbd4-dc30-4479-a973-50f0e256a703)
+![image](https://github.com/user-attachments/assets/7d9a00fd-ee2c-4d43-85f1-c9702266f9dd)
+
+
+
+
+
+
 
 
 
